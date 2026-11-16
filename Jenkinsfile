@@ -19,7 +19,7 @@ pipeline {
   tools {
     git 'Default'
   }
-  options { timestamps() }
+  
   parameters {
     choice(
       name: 'TEST_SUITE',
